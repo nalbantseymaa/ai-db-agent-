@@ -110,11 +110,13 @@ docker compose up -d
 
 Open your browser at http://localhost:8080 to access LibreDB Studio.
 
-![Docker Compose Startup](https://via.placeholder.com/900x500?text=Docker+Compose+Startup)
+![Docker Compose Startup](https://github.com/user-attachments/assets/e37bb7c6-f473-4705-b5cb-becb264b5bfe)
 
 ---
 
 ## 6. LibreDB Studio Configuration
+![LibreDB Connection Setup](https://github.com/user-attachments/assets/6b62d35b-0152-4f3c-b649-58fc6fdc6264)
+
 
 ### Default Login Credentials
 - Email: admin@libredb.org
@@ -129,8 +131,6 @@ Use the following settings:
 - Username: telekom_admin
 - Password: safe_telekom_password123
 - Database: telekom_crm_db
-
-![LibreDB Connection Setup](https://via.placeholder.com/900x500?text=LibreDB+Connection+Setup)
 
 ---
 
@@ -232,7 +232,7 @@ INSERT INTO inventories (customer_id, device_name, brand, serial_number, assigne
 (5, 'iPhone 15 Pro 256GB', 'Apple', 'APPL99887766M', '2025-09-25');
 ```
 
-![Database Query Result](https://via.placeholder.com/900x500?text=Database+Query+Result)
+![Database Query Result](https://github.com/user-attachments/assets/484c5d00-739a-4de5-afa3-e8619ac55945)
 
 ---
 
@@ -268,8 +268,6 @@ Hello agent, can you write a chocolate cake recipe for me?
 ```
 
 The agent should respond with a restricted-access message and not proceed to the database workflow.
-
-![Agent Terminal Demo](https://via.placeholder.com/900x500?text=Agent+Terminal+Demo)
 
 ### Session Exit
 ```text
