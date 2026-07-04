@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  # First Layer: PostgreSQL Database for Telekom CRM
+  telekom-database:
+    image: postgres:15
+    container_name: telekom_postgres_core
+    environment: 
+      POSTGRES_USER: telekom_admin
+      POSTGRES_PASSWORD: safe_telekom_password123
+      POSTGRES_DB: telekom_crm_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - telekom_db_storage:/var/lib/postgresql/data
+
+  # Second Layer: Libredb
+  libredb-studio:
+    image: libredb/libredb-studio
+    container_name: libredb_studio_ui
+    ports:
+      - "8080:8080"
+    depends_on:
+      - telekom-database
+
+volumes:
+  telekom_db_storage:
+
