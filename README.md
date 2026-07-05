@@ -1,4 +1,4 @@
-# 🚀 Telecom Cognitive AI Agent with Groq and LibreDB Studio
+# Telecom Cognitive AI Agent with Groq and LibreDB Studio
 
 This repository contains a professional, production-style cognitive AI agent designed for telecom database operations, churn analysis, and customer retention workflows. The system combines a modern language model workflow with a containerized PostgreSQL database and a browser-based database studio to deliver a full end-to-end business intelligence experience.
 
